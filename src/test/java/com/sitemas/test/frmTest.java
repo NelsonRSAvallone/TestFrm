@@ -34,12 +34,13 @@ public class frmTest {
 			
 			driver.findElement(By.xpath("//*[@id=\'ja-rightcol\']/div[3]/div/a/img")).click();
 			Thread.sleep(5000);
-			driver.findElement(By.xpath("//input[@name='username']")).sendKeys("30536289");
-			driver.findElement(By.xpath("//input[@name='password']")).sendKeys("MEIJI123");
+			driver.findElement(By.xpath("//input[@name='username']")).sendKeys("xxxxxxxxxx");
+			driver.findElement(By.xpath("//input[@name='password']")).sendKeys("xxxxxxxxxx");
 			driver.findElement(By.xpath("//input[@class='habilitado']")).click();
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//input[@type='submit' and @class=\'habilitado\' and @value=\'Legajo: 46045 Alumno\']")).click();
 			Thread.sleep(2000);
+			
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
